@@ -1,0 +1,99 @@
+.imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    .center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-top: -30px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-top: -70px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-top: -70px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .center {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-top: -70px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .center {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: 'Bebas Neue';
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-top: -100px;
+        color: rgb(0, 0, 0);
+    }
+}
