@@ -34,10 +34,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand fixed-top">
+        <nav class="navbar navbar-expand sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    Après Des Heures
+                    <img src="./img/logo/pngStickerBlackText.png" alt="apres des heures logo">
                 </a>
                 <div>
                     <ul class="navbar-nav">

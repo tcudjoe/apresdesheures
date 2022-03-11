@@ -1,99 +1,19 @@
-.imgbox {
-    display: flex;
-    justify-content: center;
+nav>div>a>img {
+    width: 10%;
+    /* /* margin-top: -20px; */
+    margin-left: 30px;
 }
 
-.center {
-    width: 70%;
+.carousel-inner>div>a>img{
+    width: 100%;
+    transition: 0.5s;
 }
 
-@media only screen and (max-width: 600px) {
-    .center {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+.carousel-inner>div>a>img:hover{
+   background-color:rgb(121, 121, 121);
 
-    h4 {
-        text-align: center;
-        font-family: 'Bebas Neue';
-        font-size: 27px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        margin-top: -30px;
-        color: rgb(0, 0, 0);
-    }
 }
 
-@media only screen and (min-width: 600px) {
-    .center {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    h4 {
-        text-align: center;
-        font-family: 'Bebas Neue';
-        font-weight: 600;
-        font-size: 30px;
-        letter-spacing: 2px;
-        margin-top: -70px;
-        color: rgb(0, 0, 0);
-    }
-}
-
-
-@media only screen and (min-width: 768px) {
-    .center {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    h4 {
-        text-align: center;
-        font-family: 'Bebas Neue';
-        font-size: 40px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        margin-top: -70px;
-        color: rgb(0, 0, 0);
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .center {
-        width: 80%;
-        display: flex;
-        justify-content: center;
-    }
-
-    h4 {
-        text-align: center;
-        font-family: 'Bebas Neue';
-        font-size: 40px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        margin-top: -70px;
-        color: rgb(0, 0, 0);
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .center {
-        width: 60%;
-        display: flex;
-        justify-content: center;
-    }
-
-    h4 {
-        text-align: center;
-        font-family: 'Bebas Neue';
-        font-size: 50px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        margin-top: -100px;
-        color: rgb(0, 0, 0);
-    }
+.shopNowSection>img {
+    width: 100%;
 }
