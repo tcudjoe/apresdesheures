@@ -45,10 +45,10 @@
                             <a class="nav-link" href="index.php?content=home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?content=about">About</a>
+                            <a class="nav-link" href="index.php?content=about">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects-section">Projects</a>
+                            <a class="nav-link" href="#projects-section">Shop</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact-section">Contact</a>
