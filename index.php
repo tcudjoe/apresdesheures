@@ -1,3 +1,16 @@
+<?php
+    function titleName() {
+        if (isset($_GET["content"])) {
+        print($_GET["content"]);
+        } else {
+        print("home");
+        }
+    }
+    // ob_start();
+    // titleName();
+    // $output = ob_get_clean();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,18 +29,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>ADH || Coming soon!</title>
+    <title>ADH || <?php titleName(); ?></title>
 </head>
 
 <body>
-    <!-- <h1>hello world!</h1> -->
-    <div class="imgbox">
-        <img class="center fit" src="./img/png1.png" alt="">
-    </div>
-    <div>
+    <header>
+        <nav class="navbar navbar-expand sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.php?content=home">
+                    <img src="./img/logo/pngStickerBlackText.png" alt="apres des heures logo">
+                </a>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php?content=home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php?content=about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects-section">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-        <h4>Coming soon!</h4>
-    </div>
+    <main>
+        <?php include 'content.php';?>
+    </main>
+
+    <footer>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
