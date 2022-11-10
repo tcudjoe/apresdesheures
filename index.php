@@ -36,7 +36,7 @@
     <header>
         <nav class="navbar navbar-expand sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.php?content=home">
                     <img src="./img/logo/pngStickerBlackText.png" alt="apres des heures logo">
                 </a>
                 <div>

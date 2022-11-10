@@ -1,0 +1,30 @@
+{
+  "name": "apresdesheures",
+  "version": "1.0.0",
+  "description": "apresdesheures",
+  "main": "app.js",
+  "scripts": {
+    "all": "npm-run-all -p sass tsc",
+    "sass": "sass ./scss/:./css/ --watch",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "apresdesheures"
+  ],
+  "author": "Taoc",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcudjoe/apresdesheures.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcudjoe/apresdesheures/issues"
+  },
+  "homepage": "https://github.com/tcudjoe/apresdesheures#readme"
+}

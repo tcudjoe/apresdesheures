@@ -1,27 +1,18 @@
-nav>div>a>img {
-    width: 10%;
-    /* /* margin-top: -20px; */
-    margin-left: 30px;
+.navbar-brand > img {
+  width: 10%;
 }
 
-.nav-item {
-    padding-right: 20px;
+.carousel-item > a > img {
+  width: 100%;
 }
 
-/* .nav-link {
-    margin-right: 50px;
-} */
-
-.carousel-inner>div>a>img{
-    width: 100%;
-    transition: 0.5s;
+.shopNowSection > img {
+  width: 100%;
 }
 
-.carousel-inner>div>a>img:hover{
-   background-color:rgb(121, 121, 121);
-
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.shopNowSection>img {
-    width: 100%;
-}
+/*# sourceMappingURL=style.css.map */
