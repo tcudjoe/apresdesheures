@@ -4,7 +4,7 @@
 ?>
 <div class="container">
     <div class="row">
-        <div id="ccarouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="#">
