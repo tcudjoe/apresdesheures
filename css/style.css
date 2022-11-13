@@ -15,4 +15,11 @@
   margin-right: auto;
 }
 
+.nav-link {
+  padding: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
+  display: block;
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -6,9 +6,6 @@
         print("home");
         }
     }
-    // ob_start();
-    // titleName();
-    // $output = ob_get_clean();
 ?>
 
 <!DOCTYPE html>
@@ -70,7 +67,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" language="JavaScript">
+    <!-- <script type="text/javascript" language="JavaScript">
         function set_body_height() { // set body height = window height
             $('body').height($(window).height());
         }
@@ -78,7 +75,7 @@
             $(window).bind('resize', set_body_height);
             set_body_height();
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
