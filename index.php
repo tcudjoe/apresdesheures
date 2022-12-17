@@ -49,7 +49,7 @@
                             <a class="nav-link" href="index.php?content=contact">Contact</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav loginCart nav  mb-2 mb-lg-0">
+                    <ul class="navbar-nav loginCart nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php?content=login">
                                 <i class="bi bi-person-circle">login</i>

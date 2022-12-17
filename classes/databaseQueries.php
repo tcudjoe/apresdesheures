@@ -9,7 +9,7 @@
         // Database Connection
         public function __construct()
         {
-            $this->conn = new mysqli($this->servername, $this->username,$this->password,$this->database);
+            $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->database);
             if(mysqli_connect_error()) {
              trigger_error("Failed to connect to MySQL: " . mysqli_connect_error());
             }else{
@@ -18,7 +18,7 @@
         }
 
         public function getRecords($table) {
-            $query = "SELECT * FROM `$table`";
+            $query = "SELECT * FROM $table";
             $result = $this->conn->query($query);
             if($result){
                 if($result->num_rows > 0){
