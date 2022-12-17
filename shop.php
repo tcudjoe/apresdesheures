@@ -18,10 +18,10 @@
                 foreach($products as $product){
             ?>
             <div class="card border-0" style="width: 18rem;">
-                <img src="./<?php echo $product['img_address'] ?>" class="card-img-top" alt="...">
+                <img src="./productImg/<?php echo $product['img_address'] ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text"><?php echo $product['name'] ?></p>
-                    <p class="card-text"><?php echo $product['price'] ?></p>
+                    <p class="card-text">€<?php echo $product['price'] ?></p>
                 </div>
             </div>
             <?php } ?>
